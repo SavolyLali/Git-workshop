@@ -9,7 +9,24 @@
 // Execute: node.js calling-a-cat.js Hungarian
 
 function main(language) {
-  console.log('language:', language)
+  let catCall;
+  switch (language.toLowerCase()) {
+    case 'hungarian':
+      catCall = 'cicc-cicc';
+      break;
+    case 'chinese':
+      catCall = 'miao-miao';
+      break;
+    case 'tunisian':
+      catCall = 'besh-besh';
+      break;
+    case 'japanese':
+      catCall = 'neko chan oide';
+      break;
+    default:
+      catCall = 'kitty-kitty';
+  }
+  console.log(`${language.split('')[0].toUpperCase()}${language.slice(1).toLowerCase()}: ${catCall}`)
   // The language variable will be the language from the command line. 
 
 }
