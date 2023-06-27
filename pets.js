@@ -11,7 +11,7 @@
 const pets = ['Cat', 'Dog', 'Hamster', 'Guinea Pig', 'Salmon']
 
 function main() {
-    pets.forEach((pet, i) =>{
+    pets.map((pet, i) =>{
         console.log(i + 1, pet)
     })
 }
