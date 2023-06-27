@@ -13,7 +13,7 @@ const catNames = ['Cirmi', 'Cirmos', 'Vakarcs', 'Butyok', 'Bubu']
 
 function main(keyword) {
     catNames.map((cat) => {
-        if (cat.includes(keyword)){
+        if (cat.toLowerCase().includes(keyword.toLowerCase())){
             console.log(cat)
         }
     })
