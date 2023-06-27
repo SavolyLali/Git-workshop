@@ -58,6 +58,10 @@ function main(sortBy) {
     dogs.sort((a, b) => a.age - b.age);
     console.log(`sortBy: age\n\n${dogs.map((dog) => `${dog.name} (${dog.age})`).join('\n')}`);
     break;
+   case 'name':
+    const sorted = (dogs.sort((a, b) => a[sortBy].localeCompare(b[sortBy])))
+    console.log(sorted);
+    break;
   }
 }
 
