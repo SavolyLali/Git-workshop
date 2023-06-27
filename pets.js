@@ -11,6 +11,9 @@
 const pets = ['Cat', 'Dog', 'Hamster', 'Guinea Pig', 'Salmon']
 
 function main() {
+    pets.map((pet, i) =>{
+        console.log(i + 1, pet)
+    })
 }
 
 main()
