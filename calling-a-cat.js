@@ -10,17 +10,17 @@
 
 function main(language) {
   let catCall;
-  switch (language) {
-    case 'Hungarian':
+  switch (language.toLowerCase()) {
+    case 'hungarian':
       catCall = 'cicc-cicc';
       break;
-    case 'Chinese':
+    case 'chinese':
       catCall = 'miao-miao';
       break;
-    case 'Tunisian':
+    case 'tunisian':
       catCall = 'besh-besh';
       break;
-    case 'Japanese':
+    case 'japanese':
       catCall = 'neko chan oide';
       break;
     default:
