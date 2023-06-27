@@ -26,7 +26,7 @@ function main(language) {
     default:
       catCall = 'kitty-kitty';
   }
-  console.log(`${language}: ${catCall}`)
+  console.log(`${language.split('')[0].toUpperCase()}${language.slice(1).toLowerCase()}: ${catCall}`)
   // The language variable will be the language from the command line. 
 
 }
