@@ -22,7 +22,6 @@
 //    Bailey
 //    Buddy
 //    ...
-// add dummy text
 
 
 const dogs = [
