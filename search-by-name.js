@@ -6,7 +6,6 @@
 //  it will outputs:
 //    Cirmi
 //    Cirmos
-// This is a dummy test2
 
 
 
