@@ -22,6 +22,7 @@
 //    Bailey
 //    Buddy
 //    ...
+// add dummak
 
 
 const dogs = [
